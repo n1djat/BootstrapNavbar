@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+    position: relative;
+    background-color: transparent;
+    z-index: 2;
+
+  .container {
+    
+    nav {
+      a {
+        font-weight: bold;
+        
+      }
+
+      .collapse {
+        justify-content: flex-end;
+        .navbar-item {
+        }
+      }
+    }
+  }
+}
+
+
+main {
+    position: absolute;
+    top: 0;
+
+    #section-a {
+
+        img {
+            background-size: cover;
+        }
+    }
+}

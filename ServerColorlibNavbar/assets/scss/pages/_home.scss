@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+
+    .container {
+
+        nav {
+            .collapse {
+                
+                .navbar-nav {
+                    gap: 20px;
+                    font-weight: 500;
+                    .nav-item {
+
+                        .nav-link {
+                            color: #AEB0B2;
+
+                            &:hover {
+                                color: white;
+                                transition: all 1s;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .buttons {
+                .form-inline {
+                    gap: 10px;
+                }
+            }
+        }
+    }
+}

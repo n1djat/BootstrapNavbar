@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header .container nav ul li a {
+  font-weight: bold;
+  color: black;
+}
+header .container nav ul li a:hover {
+  color: #69B4FD;
+}
+header .container nav .collapse {
+  justify-content: flex-end;
+}
